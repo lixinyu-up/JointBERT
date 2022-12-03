@@ -4,3 +4,4 @@ eqeval==1.2.2
 pytorch-crf==1.1.0
 tqdm
 numpy
+ok
