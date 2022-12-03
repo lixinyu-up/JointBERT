@@ -15,10 +15,10 @@
 ## Dependencies
 
 - python>=3.6
-- torch==1.6.0
-- transformers==3.0.2
-- seqeval==0.0.12
-- pytorch-crf==0.7.2
+- torch==1.13.0
+- transformers==4.20.1
+- seqeval==1.2.2  
+- pytorch-crf==1.1.0
 
 ## Dataset
 
@@ -41,7 +41,7 @@ $ python3 main.py --task {task_name} \
                   --use_crf
 
 # For ATIS
-$ python3 main.py --task atis \
+$ python main.py --task atis \
                   --model_type bert \
                   --model_dir atis_model \
                   --do_train --do_eval
